@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+    defer-datasource-initialization: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vennkateshchigiri@gmail.com
+    password: 1816097@vV
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+          
+          
+server:
+  port: 9090
+          
